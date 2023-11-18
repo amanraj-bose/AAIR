@@ -28,7 +28,7 @@ bash$: sudo apt install python3 python3-pip
 2. Install the Model from given drive folder
 
 ```html
-https://drive.google.com/drive/folders/1tauQcmekip1mElRBTusWyGbjW9oRw3DP?usp=sharing
+https://drive.google.com/drive/folders/1sshOOoTYgUXmQ2bxPy91aeiRU7PrQ8oW?usp=sharing
 ```
 3. Run the `Setup.py` on your terminal
 ```bash
