@@ -1,5 +1,5 @@
 <p align="center">
-    <img width="400" height="200" src="https://github.com/amanraj-bose/AAIR/blob/main/config/logo.png">
+    <img width="400" height="200" src="https://github.com/amanraj-bose/AAIR/blob/1a3c989ec89096ee76b787c2fbd5cc2584912c4a/config/logo.png">
 </p>
 <p align="center">
     <a href="https://twitter.com/amanraj_Phunish">
