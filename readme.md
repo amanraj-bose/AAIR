@@ -15,7 +15,7 @@
  </p>
 
 # AAIR (Advance Artificial Intelligence Recognizer)
-**This Tool analyze the facial expression of any human.**
+**This Tool analyze the facial expression of any human. It is based on `Tensorflow framework` and this software use Tensorflow in their Backend**
 
 # Installation
 1. First Clone from the github and install python
