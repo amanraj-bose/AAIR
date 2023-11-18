@@ -21,7 +21,7 @@
 1. First Clone from the github and install python
 
 ```bash
-bash$: sudo git clone 
+bash$: sudo git clone https://github.com/amanraj-bose/AAIR.git
 bash$: sudo apt install python3 python3-pip
 ```
 
