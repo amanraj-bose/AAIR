@@ -3,7 +3,7 @@
 </p>
 <p align="center">
 
-    <a href="https://twitter.com/amanraj_Phunish">
+<a href="https://twitter.com/amanraj_Phunish">
     <img alt="Twitter URL" src="https://img.shields.io/twitter/url?label=Twitter&style=social&url=https%3A%2F%2Ftwitter.com%2Famanraj_Phunish"></a>
     <a href="#"><img src="https://img.shields.io/badge/Version-0.1Beta-blue"></img></a>
     <a href="https://opensource.org/licenses/MIT"><img alt="GitHub" src="https://img.shields.io/github/license/amanraj-bose/Network-Framework?color=green"></a>
