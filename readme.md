@@ -29,7 +29,6 @@ bash$: sudo apt install python3 python3-pip
 
 ```html
 https://drive.google.com/drive/folders/1tauQcmekip1mElRBTusWyGbjW9oRw3DP?usp=sharing
-
 ```
 3. Run the `Setup.py` on your terminal
 ```bash
