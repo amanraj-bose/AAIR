@@ -1,7 +1,8 @@
 <p align="center">
-    <img width="400" height="200" src="https://github.com/amanraj-bose/AAIR/blob/1a3c989ec89096ee76b787c2fbd5cc2584912c4a/config/logo.png">
+    <img width="400" height="200" src="https://github.com/amanraj-bose/AAIR/assets/88227750/5e29f7bd-b6b1-4b29-bb5e-c4dbb28b983e">
 </p>
 <p align="center">
+
     <a href="https://twitter.com/amanraj_Phunish">
     <img alt="Twitter URL" src="https://img.shields.io/twitter/url?label=Twitter&style=social&url=https%3A%2F%2Ftwitter.com%2Famanraj_Phunish"></a>
     <a href="#"><img src="https://img.shields.io/badge/Version-0.1Beta-blue"></img></a>
