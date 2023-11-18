@@ -1,0 +1,12 @@
+{
+    "debug": true,
+    "max_boxes": 3,
+    "scores": 0.7,
+    "terms": 20,
+    "host": "0.0.0.0",
+    "port": 4444,
+    "model": {
+        "detection": "models/detector/saved_model",
+        "gender-ethnicity": "models/gender-ethnic"
+    }
+}

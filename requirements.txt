@@ -1,0 +1,7 @@
+flask
+tensorflow
+numpy 
+opencv-python
+Werkzeug==2.2.2
+webcolors==1.12
+tqdm==4.64.1

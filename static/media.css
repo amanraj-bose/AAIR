@@ -1,0 +1,11 @@
+@media (max-width: 1250px) {
+    .upload{
+        margin-right: 350px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .upload{
+        margin-right: 310px;
+    }
+}

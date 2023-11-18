@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css' ) }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='media.css' ) }}">
+</head>
+<body>
+    <div class="info">
+        <button class="about">
+            <span>i</span>
+        </button>
+    </div>
+    <section class="content">
+        <div class="image">
+            <!-- <div class="actual">
+                <img src="../static/images/unknown.png" alt="pseudo" id="image">
+                <button class="upload" aria-label="Upload" onclick="chooseImage()">
+                    <p class="denote"><b>&UpArrow;</b> upload</p>
+                </button>
+                <form id="uploadForm" action="/" method="post" enctype="multipart/form-data" style="display: none;">
+                    <input type="file" name="image" id="image" accept="image/*" onchange="submitForm()">
+                    <input type="submit" style="display: none;">
+                </form>            
+            </div> -->
+            <div class="image_ actual" style="height: 45vh;">
+                {% if bounding_box_image %}
+                    <img src="{{ bounding_box_image }}" alt="" id="image-typone">
+                {% endif %}
+            </div>
+            <div class="information">
+                <div class="name filename imagename">
+                    <b>Name</b>
+                    {{name}}
+                </div>
+                <div class="name filename size">
+                    <b>Image Size</b>
+                    {{shape}}
+                </div>
+                <div class="name filename filesize">
+                    <b>File Size</b>
+                    {{filesize}}
+                </div>
+                <div class="name filename type">
+                    <b>Image Type</b>
+                    {{Type}}
+                </div>
+            </div>
+        </div>
+        <div class="data">
+                {% if result_items %}
+                    {% for item in result_items %}
+                            {% for entry in item %}
+                                <div class="cards" style="background-color: rgba{{entry[2].split(': ')[1] }};">
+                                    {% for idx in entry %}
+                                        <p>{{idx}}</p>
+                                    {% endfor %}
+                                </div>
+                            {% endfor %}
+                        <!-- </div> -->
+                    {% endfor %}
+                {% else %}
+                    <p>No items available.</p>
+                {% endif %}
+        </div>
+    </section>
+    <div class="actual">
+        <!-- <img src="../static/images/unknown.png" alt="pseudo" id="image"> -->
+        <button class="upload" aria-label="Upload" onclick="chooseImage()">
+            <p class="denote"><b>&UpArrow;</b> upload</p>
+        </button>
+        <form id="uploadForm" action="/" method="post" enctype="multipart/form-data" style="display: none;">
+            <input type="file" name="image" id="image" accept="image/*" onchange="submitForm()">
+            <input type="submit" style="display: none;">
+        </form>            
+    </div>
+</body>
+<script>
+    function chooseImage(){
+        document.getElementById("image").click();
+    } function submitForm(){
+        document.getElementById("uploadForm").submit();
+    }
+</script>
+</html>
