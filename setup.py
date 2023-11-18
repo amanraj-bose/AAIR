@@ -17,7 +17,7 @@ class Setup(object):
         return {"os": OS, "platform": PLATFORM, "name": NAME, "version": VERSION}
     
     def creator(self):
-        dirs = {"./upload", "./static/temporal", "./keys", "./models"}
+        dirs = {"./upload", "./static/temporal", "./keys"}
         for i in dirs: 
             if not os.path.exists(i):
                 os.makedirs(i, exist_ok=True)
@@ -60,7 +60,7 @@ class Setup(object):
         self.style("Creating Directories", "")
         print(creator)
         self.style("Directories has done", "", "green", "#")            
-        self.style("Installing Python Packages")
+        self.style("Installing Python Packages", "")
         x = ""
         if system["os"] == "linux":
                 x = "3"
