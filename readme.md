@@ -21,7 +21,7 @@
 1. First Clone from the github and install python
 
 ```bash
-bash$: sudo git clone 
+bash$: sudo git clone https://github.com/amanraj-bose/AAIR.git
 bash$: sudo apt install python3 python3-pip
 ```
 
@@ -41,7 +41,7 @@ Demo of our project.
 
 <video src="https://github.com/amanraj-bose/AAIR/assets/88227750/65a0f3e0-eee4-457b-9543-11f2f07d4468" width="800">
 
-    
+
 </video>
 
 # Features
