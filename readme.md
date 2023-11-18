@@ -38,6 +38,8 @@ bash$: sudo python3 setup.py
 # Demo
 Demo of our project.
 
+<video src="https://user-images.githubusercontent.com/88227750/178748824-0c2ef687-666c-40d1-a623-19b5232af3bc.mp4" width="800">
+</video>
 
 # Features
 1. Analyze the Person Gender
